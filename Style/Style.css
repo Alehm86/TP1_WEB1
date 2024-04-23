@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
 body{
     min-height: 100vh;
     background-image: url(./3.jpeg);
@@ -14,11 +15,13 @@ body{
     justify-content: center;
     align-items: center; 
 }
+
 .ContFlex{
     display: flex;
 }
+
 .Container{
-    width: 420px;
+    width: 500px;
     align-items: center;
     background-color: rgba(128, 128, 128, 0.295);
     border-radius: 15px;
@@ -32,10 +35,8 @@ body{
     padding: 30px;
 }
 
-
 .Cajadetexto{
-    color: antiquewhite;
-    
+    color: antiquewhite;   
     height: 100%;
     width: 100%;
     border: none;
@@ -44,20 +45,21 @@ body{
     border-radius: 40px;
     background-color: rgba(128, 128, 128, 0.295);   
 }
+
 .ClassBtn{
     height: 100%;
     width: 100%;
     border-radius: 40px;
-    box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+    border: 2px solid antiquewhite;
     cursor: pointer; 
     font-size: 16px;
     font-weight: 600;
     padding: 20px 45px 20px 20px;
     color: #333;
-    background-color:rgba(250, 235, 215, 0.466)   
+    background-color: rgba(250, 235, 215, 0.466);
 }
-.ClassBtn1{
-    
+
+.ClassBtn1{    
     height: 40px;
     width: 250px;
     border-radius: 40px;
@@ -66,12 +68,11 @@ body{
     font-size: 16px;
     font-weight: 600;
     color: #333;
-    background-color:rgba(250, 235, 215, 0.466);
-      
+    background-color:rgba(250, 235, 215, 0.466);     
 }
+
 .ImgLogo{
-    align-items: center;
-    background-image: url(./CbaTech.jpeg);
+    align-items: center;   
     background-size: contain;
     background-repeat: no-repeat;
     margin: auto;
@@ -80,6 +81,7 @@ body{
     height: 250px;
     width: 250px;
 }
+
 .bienvenido{
     text-align: center;
     color: antiquewhite;
