@@ -131,7 +131,7 @@ body{
     border-style: groove;
     padding: 5px 20px 5px;
 }
-
+/*
 .cantidad{
     background-color: transparent;
     color: antiquewhite;
@@ -141,7 +141,15 @@ body{
     width: 50px;
     text-align: center;
 }
-
+*/
 .titulo{
     text-align: center;
+}
+
+.titulo{
+    text-decoration: solid; 
+    font-size: 40px;
+    margin-right: 24%;
+    color:antiquewhite;
+    
 }
